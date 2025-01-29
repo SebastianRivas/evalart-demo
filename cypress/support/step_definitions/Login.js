@@ -11,9 +11,9 @@ When("Tester ingresa {string} como usuario y {string} como contraseña", functio
 });
 
 Then("Tester verifica que puede accer al aplicativo", function () {
-    CommonActions.actual_url_eq("https://katalon-demo-cura.herokuapp.com/#appointment")
+    CommonActions.actual_url_eq("https://tasks.evalartapp.com/automatization/forms/test")
 });
 
 Then("Tester verifica que no puede accder al aplicativo", function () {
-    CommonActions.expect_contain("Login failed! Please ensure the username and password are valid.");
+    CommonActions.expect_contain("Id incorrecto, intenta otra vez");
 });

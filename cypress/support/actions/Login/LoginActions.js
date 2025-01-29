@@ -3,7 +3,7 @@ import { CommonActions } from "../Common/CommonActions";
 
 export class Actions {
     visit() {
-        cy.visit("/profile.php");
+        cy.visit("/automatization");
     }
 
     type_username(username) {

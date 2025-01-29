@@ -35,7 +35,7 @@ async function setupNodeEvents(on, config) {
 module.exports = defineConfig({
   e2e: {
     specPattern: "cypress/features/**/*.feature",
-    baseUrl: 'https://katalon-demo-cura.herokuapp.com',
+    baseUrl: 'https://tasks.evalartapp.com',
     setupNodeEvents
   }
 });
