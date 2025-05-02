@@ -10,11 +10,9 @@ When("Tester ingresa {string} como usuario y {string} como contraseña", functio
 });
 
 Then("Tester verifica que puede accer al aplicativo", function () {
-//   CommonActions.actual_url_eq(
-//     "https://tasks.evalartapp.com/automatization/forms/test"
-//   );
+  LoginPage.assertUrl("https://tasks.evalartapp.com/automatization/buttons/test");
 });
 
 Then("Tester verifica que no puede accder al aplicativo", function () {
-//   CommonActions.expect_contain("Id incorrecto, intenta otra vez");
+  LoginPage.assertContent("p[class=\"text-red-500 text-xl text-center\"]", "Id incorrecto, intenta otra vez");
 });

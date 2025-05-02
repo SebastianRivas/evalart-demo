@@ -2,7 +2,7 @@ Feature: Resolver las preguntas propuestas por la aplicacion
 
     Scenario: Realizar el test de la aplicacion
         Given Tester desea ingresar al login
-        When Tester ingresa "1051914" como usuario y "10df2f32286b7120Mi00LTQxOTE1MDE=30e0c83e6c29f1c3" como contraseña
+        When Tester ingresa "1052174" como usuario y "10df2f32286b7120Mi00LTQxOTE1MDE=30e0c83e6c29f1c3" como contraseña
         Then Tester resuelve las preguntas con los siguientes datos
             | character | number |
             | 🐮        | 9      |

@@ -9,7 +9,7 @@ Then("Tester resuelve las preguntas con los siguientes datos", function (table) 
       QuestionPage.solveMultiplesOf(element.number);
       QuestionPage.sendAnswers();
     });
-  });
+});
 
 Then("Tester verifica que se lance el mensaje {string}", function (message) {
   // CommonActions.expect_contain(message);
