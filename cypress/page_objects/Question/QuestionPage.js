@@ -1,6 +1,6 @@
-import PageObject from "../../page_objects/PageObject.js";
+import { PageObject } from "../PageObject";
 
-class QuestionPage extends PageObject {
+export class QuestionPage extends PageObject {
   get questionOneParagraph() {
     return 'p[class="text-center text-xl"]';
   }
@@ -49,5 +49,3 @@ class QuestionPage extends PageObject {
     this.click(this.sendAnswersQuestionsButton);
   }
 }
-
-export default new QuestionPage();
